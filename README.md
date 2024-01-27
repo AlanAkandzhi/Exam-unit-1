@@ -1,12 +1,13 @@
 # Exam-unit-1
 
-Task 1
+Reflecting on the five MazeCar codes they all are about guiding a car through a maze to reach a goalbut each one does it a bit differently.
 
-I wrote this code to help a car find its way to a finish line. It's like giving the car instructions on what to do when it's driving. The main idea is simple: the car keeps going forward if the road is clear. If there's something blocking the way, the car turns to find a clear path. It tries turning a few times to see if it can go forward. But if it's still stuck after turning around a few times, the code tells the car that it can't reach the finish line. This is like saying, "We tried, but we can't go any further." And when the car does get to the finish line, the code celebrates by saying the car made it!
------------------
-Task 2
+Many Turns - The first code makes the car turn many times to find a clear path. It's like trying every direction before giving up if stuck.
 
-I wrote this code to make a car, which I call "MazeCar," find its way to a goal in a maze. The main job of the code is to tell the car how to move. When the car sees the path is clear, it moves forward. If the path is not clear, it turns to find a new way. The code keeps doing this until the car reaches the goal. It's like giving MazeCar a simple set of rules to follow to find its way out of a maze.
--------------------
-Task 3
+Simple Turns with a Car Class - The second code creates a MazeCar as a class and makes decisions simpler. Here, the car only turns once if the way isn't clear.
 
+Shorter Code with the Same Idea - The third code is much like the second, but it's shorter. It's still about the car turning once when needed, just written in fewer lines.
+
+More Choices in Turning - The fourth code lets the car do more – turn right, left, or completely around. This means the car has more ways to try if it can't go forward.
+
+Simple Turns and Tells When Done - The fifth code is like the second, but it also tells you when the car reaches the goal. It's simple but gives a clear signal when the journey is complete.
